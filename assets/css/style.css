@@ -71,17 +71,18 @@ header nav li a:hover {
 }
 
 .back-video {
-    position: absolute;
+    position: fixed;
     z-index: -1;
-    width: 100vw;
-    height: 100vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
-}
-
-.back-video .video {
+    object-fit: fill;
+    width: 100vw;
     height: 100vh;
+    top: 0;
+    left: 0;
+    -webkit-transform: scaleX(1.2) scaleY(1.2); 
+    -moz-transform: scaleX(1.2) scaleY(1.2);
 }
 
 .back-video::after {
