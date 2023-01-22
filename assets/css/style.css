@@ -6,13 +6,13 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 2rem;
     max-width: 1440px;
     margin: 0 auto;
 }
 
 header .logo {
-    width: 65px;
+    width: 4.2rem;
 }
 
 header .menu{
@@ -49,9 +49,9 @@ header nav li a:hover {
 
 .container .description {
     color: #a8adb7;
-    width: 65%;
-    font-size: 1rem;
-    margin: 0 0 3rem;
+    width: 85%;
+    font-size: 18px;
+    margin: 30px 0;
 }
 
 .container .button-trailer {
@@ -70,10 +70,6 @@ header nav li a:hover {
     transform: scale(1.1)
 }
 
-.snk {
-    width: 20rem;
-}
-
 .back-video {
     position: absolute;
     z-index: -1;
@@ -84,12 +80,22 @@ header nav li a:hover {
     justify-content: center;
 }
 
+.back-video .video {
+    height: 100vh;
+}
+
 .back-video::after {
     content: "";
     height: 100vh;
     width: 100vw;
     position: absolute;
+    top: 0;
+    left: 0;
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,1) 100%);
+}
+
+.snk {
+    width: 20rem;
 }
 
 .modal {
@@ -115,7 +121,7 @@ header nav li a:hover {
 
 .close-modal {
     background-color: #ffffff;
-    color: #f03a17;
+    color: #1C2458;
     font-weight: bold;
     font-size: 20px;
     width: 40px;
