@@ -10,9 +10,8 @@ The application consists of a page, which has as its main function a button to s
 ## Front end
 - HTML / CSS / JS / TypeScript
 
-# Autor
+# Author
 
 Luciano Rodrigues Da Silva
 
 https://www.linkedin.com/in/luciano-rodrigues-237444206
-
