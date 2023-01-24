@@ -8,7 +8,7 @@ The application consists of a page, which has as its main function a button to s
 
 # Technologies used
 ## Front end
-- HTML / CSS / JS / TypeScript
+- HTML / CSS / JS 
 
 # Author
 
