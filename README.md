@@ -1,6 +1,6 @@
 # About the Project
 
-- https://sushinectar.github.io/projeto-snk
+- https://sushinectar.github.io/project-snk
 
 The SNK Project is a Front End web and Mobile application based on a course seen, with major changes in virtually all aspects.
 
